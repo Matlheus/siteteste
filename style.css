@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    background-color: black
+    ;
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.slider{
+    display: grid;
+}
+
+.slider img{
+    border-radius: 20px;
+    grid-area: 1/1;
+    z-index: 1;
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.slider img.ativo{
+   z-index: 2;
+}
+
+
+
+
+
+
+.button {
+    color: white;
+}
+
+
+
+
+
